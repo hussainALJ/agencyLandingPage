@@ -1,0 +1,61 @@
+.container {
+  position: relative;
+}
+
+.flexContainer {
+  margin: 30px 0;
+}
+
+.nav {
+  position: relative;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  position: absolute;
+  transform: translate(0%, 34px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+}
+
+.login {
+  background-color: #f5f7fa;
+  color: var(--brand-primary);
+}
+
+@media (min-width: 810px) {
+  .nav {
+    flex-direction: row;
+    gap: 16px;
+  }
+  .show,
+  .hide {
+    position: static;
+    transform: translate(0, 0);
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+}
+
+@media (min-width: 980px) {
+  .nav {
+    gap: 50px;
+  }
+  .show,
+  .hide {
+    gap: 50px;
+  }
+}
