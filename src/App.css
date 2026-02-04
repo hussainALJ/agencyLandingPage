@@ -1,0 +1,17 @@
+.container {
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.mini {
+  font-size: 14px;
+  line-height: 20px;
+}
