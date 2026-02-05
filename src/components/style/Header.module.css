@@ -6,6 +6,10 @@
   margin: 30px 0;
 }
 
+.logo {
+  color: #263238;
+}
+
 .nav {
   position: relative;
   flex-direction: column;

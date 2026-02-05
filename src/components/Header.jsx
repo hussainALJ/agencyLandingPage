@@ -13,7 +13,9 @@ function Header() {
     <header>
       <div className={`${styles.container} container`}>
         <div className={`${styles.flexContainer} flex`}>
-          <Logo />
+          <div className={styles.logo}>
+            <Logo />
+          </div>
         <nav className={`${styles.nav} flex`}>
           <a
             href=""

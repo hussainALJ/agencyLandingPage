@@ -1,0 +1,58 @@
+.logo {
+  color: #ffffff;
+}
+
+.silver,
+.silver * {
+  color: #f5f7fa;
+}
+
+.flexContainer {
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.copyRights {
+  max-width: 204px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.socials {
+  max-width: 180px;
+}
+
+.navigation {
+  flex-direction: column;
+  align-items: baseline;
+  gap: 50px;
+}
+
+.navigation h4 {
+    margin-bottom: 24px;
+}
+
+.navigation nav {
+  flex-direction: column;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.email {
+    background-color: #515b60;
+    padding: 11px;
+    border-radius: 8px;
+    gap: 0;
+}
+
+@media (min-width: 680px) {
+  .flexContainer {
+    flex-direction: row;
+  }
+
+  .navigation {
+    width: 634px;
+    flex-direction: row;
+  }
+}
