@@ -47,6 +47,25 @@
   max-width: 660px;
 }
 
+.stats {
+    padding: 64px 0;
+}
+
+.stats>div {
+    flex-direction: column;
+}
+
+.stats .numbers {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 255px));
+    column-gap: 30px;
+    row-gap: 40px;
+}
+
+.stats .numbers div {
+    justify-content: start;
+}
+
 @media (min-width: 810px) {
   .threeYears > div {
     flex-direction: row;
@@ -54,5 +73,8 @@
   .threeYears svg {
     width: 442px;
     flex-shrink: 0;
+  }
+  .stats>div {
+    flex-direction: row;
   }
 }
