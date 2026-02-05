@@ -1,6 +1,7 @@
 import styles from "./style/Header.module.css";
 import { useEffect, useState, useRef } from "react";
 import Logo from "../assets/logo.svg?react";
+import Arrow from "../assets/arrow.svg?react"
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +25,7 @@ function Header() {
               setIsOpen(!isOpen);
             }}
           >
-            Home
+            Home <Arrow />
           </a>
               <div ref={nav}>
                   <a href="">Service</a>

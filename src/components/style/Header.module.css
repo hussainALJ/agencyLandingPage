@@ -16,11 +16,17 @@
   gap: 10px;
 }
 
+.nav svg {
+  transition: 300ms;
+}
+
 .hide {
   display: none;
 }
 
 .show {
+  background-color: #ffffff;
+  padding: 5px;
   position: absolute;
   transform: translate(0%, 34px);
   display: flex;
@@ -28,6 +34,10 @@
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+}
+
+a:has(+ .show) svg {
+  transform: rotate(-180deg);
 }
 
 .btn {
