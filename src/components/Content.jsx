@@ -8,6 +8,7 @@ import Logo7 from '../assets/clients/seventh.svg?react'
 import MembersIcon from '../assets/members-icon.svg?react'
 import AssociationsIcon from '../assets/national -associations-icon.svg?react'
 import GroupsIcon from '../assets/groups-icon.svg?react'
+import ThreeYears from '../assets/three-years.svg?react'
 import styles from './style/Content.module.css'
 
 function Content () {
@@ -48,6 +49,16 @@ function Content () {
                         <h3>Clubs And <br />Groups</h3>
                         <p className='mini'>Our membership management software provides full automation of membership renewals and payments</p>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section className={`${styles.threeYears}`}>
+            <div className="container flex">
+                <ThreeYears />
+                <div className={`${styles.text}`}>
+                    <h2>The unseen of spending three years at Pixelgrade</h2>
+                    <p className="mini">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+                    <button>Learn More</button>
                 </div>
             </div>
         </section>
