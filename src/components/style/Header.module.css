@@ -54,6 +54,10 @@ a:has(+ .show) svg {
     flex-direction: row;
     gap: 16px;
   }
+  .nav a:has(+ .show) svg,
+  .nav a:has(+ .hide) svg {
+    display: none;
+  }
   .show,
   .hide {
     position: static;
