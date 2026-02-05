@@ -6,6 +6,10 @@
     flex-direction: column-reverse;
 }
 
+.flexContainer svg {
+    max-width: 100%;
+}
+
 .mainText {
     margin-bottom: 16px;
 }
