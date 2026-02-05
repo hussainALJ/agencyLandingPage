@@ -1,0 +1,21 @@
+.hero {
+    padding: 96px 0;
+}
+
+.flexContainer {
+    flex-direction: column-reverse;
+}
+
+.mainText {
+    margin-bottom: 16px;
+}
+
+.subText {
+    margin-bottom: 32px;
+}
+
+@media (min-width: 810px) {
+    .flexContainer {
+        flex-direction: row;
+    }
+}

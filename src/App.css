@@ -11,6 +11,10 @@
   gap: 15px;
 }
 
+.silverBg {
+  background-color: #F5F7FA;
+}
+
 .mini {
   font-size: 14px;
   line-height: 20px;

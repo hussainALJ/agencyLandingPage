@@ -51,6 +51,10 @@ p {
   line-height: 24px;
 }
 
+span {
+  color: var(--brand-primary);
+}
+
 a {
   text-decoration: none;
   color: var(--gray-900);

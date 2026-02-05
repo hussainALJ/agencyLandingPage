@@ -1,4 +1,4 @@
-import styles from "./Header.module.css";
+import styles from "./style/Header.module.css";
 import { useEffect, useState, useRef } from "react";
 import Logo from "../assets/logo.svg?react";
 
