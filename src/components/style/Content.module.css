@@ -17,11 +17,13 @@
 }
 
 .subText {
-  margin: 16px 0 40px;
+  margin: 16px auto 40px;
+  max-width: 628px;
 }
 
 .cardsContainer {
   overflow: auto;
+  gap: 24px;
 }
 
 .servicesCard {
@@ -31,50 +33,81 @@
   border-radius: 8px;
 }
 
-.threeYears {
-    margin-bottom: 48px;
+.assay {
+  margin-bottom: 48px;
+  padding: 32px 0;
 }
 
-.threeYears > div {
+.assay > div {
   flex-direction: column;
 }
 
-.threeYears svg {
+.assay svg {
   max-width: 100%;
 }
 
-.threeYears .text {
+.assay .text {
   max-width: 660px;
 }
 
-.stats {
-    padding: 64px 0;
+.assay .text p {
+  margin: 16px 0 32px;
 }
 
-.stats>div {
-    flex-direction: column;
+.stats {
+  padding: 64px 0;
+}
+
+.stats > div {
+  flex-direction: column;
 }
 
 .stats .numbers {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(100px, 255px));
-    column-gap: 30px;
-    row-gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(100px, 255px));
+  column-gap: 30px;
+  row-gap: 40px;
 }
 
 .stats .numbers div {
-    justify-content: start;
+  justify-content: start;
 }
 
+.titleCard {
+  position: relative;
+  width: 318px;
+  height: 176px;
+  margin: -96px 24px 0;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.getDemo {
+  padding: 32px;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.getDemo h1 {
+  text-align: center;
+  max-width: 886px;
+  color: #263238;
+}
+
+.titleCard h4 {
+  color: var(--gray);
+}
 @media (min-width: 810px) {
-  .threeYears > div {
+  .assay > div {
     flex-direction: row;
   }
-  .threeYears svg {
-    width: 442px;
+  .assay svg {
     flex-shrink: 0;
   }
-  .stats>div {
+  .stats > div {
     flex-direction: row;
   }
 }
